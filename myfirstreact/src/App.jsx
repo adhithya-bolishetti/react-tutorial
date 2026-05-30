@@ -9,6 +9,7 @@ import { useState } from 'react'
 import ClickEvent from './ClickEvent'
 import Resize from './Chat'
 import FormExample from './FormExample'
+import SampleArray from './SampleArray'
 
 const myCar = {
   brand : "Tata",
@@ -21,7 +22,7 @@ function App() {
   
   return (
     <div className='container'>
-      <FormExample />
+      <SampleArray />
     </div>
   )
 }
