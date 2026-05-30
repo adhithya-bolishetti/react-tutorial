@@ -8,6 +8,7 @@ import StateMgm from './StateMgm'
 import { useState } from 'react'
 import ClickEvent from './ClickEvent'
 import Resize from './Chat'
+import FormExample from './FormExample'
 
 const myCar = {
   brand : "Tata",
@@ -20,7 +21,7 @@ function App() {
   
   return (
     <div className='container'>
-      <Resize />
+      <FormExample />
     </div>
   )
 }
