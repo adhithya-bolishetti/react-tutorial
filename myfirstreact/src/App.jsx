@@ -10,6 +10,7 @@ import ClickEvent from './ClickEvent'
 import Resize from './Chat'
 import FormExample from './FormExample'
 import SampleArray from './SampleArray'
+import TempLit from './TempLit'
 
 const myCar = {
   brand : "Tata",
@@ -22,7 +23,7 @@ function App() {
   
   return (
     <div className='container'>
-      <SampleArray />
+      <TempLit />
     </div>
   )
 }
