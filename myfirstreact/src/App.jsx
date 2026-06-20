@@ -14,6 +14,7 @@ import TempLit from './TempLit'
 import UserPage from './UserPage'
 import Employee from './Employee'
 import Circuit from './Circuit'
+import MultiState from './MultiState'
 
 const myCar = {
   brand : "Tata",
@@ -26,7 +27,7 @@ function App() {
   
   return (
     <div className='container'>
-      <Circuit />
+      <MultiState />
     </div>
   )
 }
