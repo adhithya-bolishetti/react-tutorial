@@ -11,6 +11,8 @@ import Resize from './Chat'
 import FormExample from './FormExample'
 import SampleArray from './SampleArray'
 import TempLit from './TempLit'
+import UserPage from './UserPage'
+import Employee from './Employee'
 
 const myCar = {
   brand : "Tata",
@@ -23,7 +25,7 @@ function App() {
   
   return (
     <div className='container'>
-      <TempLit />
+      <Employee />
     </div>
   )
 }
