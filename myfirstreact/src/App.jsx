@@ -13,6 +13,7 @@ import SampleArray from './SampleArray'
 import TempLit from './TempLit'
 import UserPage from './UserPage'
 import Employee from './Employee'
+import Circuit from './Circuit'
 
 const myCar = {
   brand : "Tata",
@@ -25,7 +26,7 @@ function App() {
   
   return (
     <div className='container'>
-      <Employee />
+      <Circuit />
     </div>
   )
 }

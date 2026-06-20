@@ -13,13 +13,21 @@ const Employee = () => {
         e.preventDefault()
         console.log(empDetails)
 
-        const response = await fetch("http://localhost:3000/api/emp/save", {
-            method: "POST",
-            headers: {
-                "Content-Type":"Application/json"
-            },
-            body: JSON.stringify(empDetails)
-        })
+        try {
+        
+            const response = await fetch("http://localhost:5000/api/emp/save", {
+                method: "POST",
+                headers: {
+                    "Content-Type":"Application/json"
+                },
+                body: JSON.stringify(empDetails)
+            })
+
+            alert("Data posted successfully")
+        } catch(error) {
+            console.log(error)
+            alert("Data failed to Post")
+        }
 
     }
 
