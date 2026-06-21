@@ -2,7 +2,9 @@ import React from 'react'
 
 const SecondPage = () => {
   return (
-    <div>SecondPage</div>
+    <div>
+        <h1>Login</h1>
+    </div>
   )
 }
 

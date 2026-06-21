@@ -2,7 +2,9 @@ import React from 'react'
 
 const FourthPage = () => {
   return (
-    <div>FourthPage</div>
+    <div>
+        <h1>Home</h1>
+    </div>
   )
 }
 

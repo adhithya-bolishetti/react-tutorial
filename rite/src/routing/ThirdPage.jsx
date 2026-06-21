@@ -2,7 +2,9 @@ import React from 'react'
 
 const ThirdPage = () => {
   return (
-    <div>ThirdPage</div>
+    <div>
+        <h1>Profile</h1>
+    </div>
   )
 }
 
